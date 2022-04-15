@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopIn</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/1847564ba8.js" crossorigin="anonymous"></script>
+    <script type="module">
+        import { alertController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
+      </script>
+</head>
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="dark">
+                <ion-title class="ion-text-center">ShopIn</ion-title>
+                <ion-col>
+                    <div class="cart-icon ion-text-end ion-padding-end">
+                        <ion-icon name="bag-handle-outline" class="ion-text-right" style="zoom:2.0;"></ion-icon>
+                    </div>
+                </ion-col>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding">
+            <a href="../menCloth.html"><i class="fa-solid fa-arrow-left fa-lg" style="color:black"></i></a>
+            <ion-card>
+                <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" class="ion-padding">
+                <ion-card-header>
+                    <ion-card-title>Fjallraven - Foldsack No. 1 Backpack</ion-card-title><br>
+                    <ion-card-subtitle>$109.95 | Rating : 4.7</ion-card-subtitle>
+                </ion-card-header>
+                <ion-card-content>
+                    Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday.
+                </ion-card-content>
+                <ion-button color="dark ion-margin">Add to Cart</ion-button>
+            </ion-card>
+        </ion-content>
+    </ion-app>
+    <script src="../app.js" type="module"></script>
+</body>
+</html>

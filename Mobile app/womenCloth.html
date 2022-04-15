@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopIn</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1847564ba8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="dark">
+                <ion-title class="ion-text-center">ShopIn</ion-title>
+                <ion-col>
+                    <div class="cart-icon ion-text-end ion-padding-end">
+                        <ion-icon name="bag-handle-outline" class="ion-text-right" style="zoom:2.0;"></ion-icon>
+                    </div>
+                </ion-col>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding">
+            <a href="index.html"><i class="fa-solid fa-arrow-left fa-lg" style="color:black"></i></a>
+            <p class="ion-text-center">Women Clothing</p>
+            Available products:
+            <ion-list class="ion-padding-top">
+                <ion-item href="products/raincoat.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">Rain Jacket Women Windbreaker Striped Climbing Raincoats</ion-label>
+                    <ion-label class="ion-text-center">$39.99</ion-label>
+                </ion-item>
+                <ion-item href="products/neckV.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">MBJ Women's Solid Short Sleeve Boat Neck V</ion-label>
+                    <ion-label class="ion-text-center">$9.85</ion-label>
+                </ion-item>
+                <ion-item href="products/shortsleeve.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">Opna Women's Short Sleeve Moisture</ion-label>
+                    <ion-label class="ion-text-center">$7.95</ion-label>
+                </ion-item>
+                <ion-item href="products/danvouy.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">DANVOUY Womens T Shirt Casual Cotton Short</ion-label>
+                    <ion-label class="ion-text-center">$12.99</ion-label>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+
+    </ion-app>
+</body>
+</html>

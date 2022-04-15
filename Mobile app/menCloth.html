@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopIn</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1847564ba8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="dark">
+                <ion-title class="ion-text-center">ShopIn</ion-title>
+                <ion-col>
+                    <div class="cart-icon ion-text-end ion-padding-end">
+                        <ion-icon name="bag-handle-outline" class="ion-text-right" style="zoom:2.0;"></ion-icon>
+                    </div>
+                </ion-col>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding">
+            <a href="index.html"><i class="fa-solid fa-arrow-left fa-lg" style="color:black"></i></a>
+            <p class="ion-text-center">Men's Clothing</p>
+            Available products:
+            <ion-list class="ion-padding-top">
+                <ion-item href="products/backpack.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">Fjallraven - Foldsack No. 1 Backpack</ion-label>
+                    <ion-label class="ion-text-center">$109.95</ion-label>
+                </ion-item>
+                <ion-item href="products/tshirt.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">Mens Casual Premium Slim Fit T-Shirts</ion-label>
+                    <ion-label class="ion-text-center">$22.30</ion-label>
+                </ion-item>
+                <ion-item href="products/jacket.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">Mens Cotton Jacket</ion-label>
+                    <ion-label class="ion-text-center">$55.99</ion-label>
+                </ion-item>
+                <ion-item href="products/casual.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">Mens Casual Slim Fit</ion-label>
+                    <ion-label class="ion-text-center">$15.99</ion-label>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+
+    </ion-app>
+</body>
+</html>

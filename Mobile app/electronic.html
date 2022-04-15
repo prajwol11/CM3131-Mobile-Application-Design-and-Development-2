@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopIn</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1847564ba8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="dark">
+                <ion-title class="ion-text-center">ShopIn</ion-title>
+                <ion-col>
+                    <div class="cart-icon ion-text-end ion-padding-end">
+                        <ion-icon name="bag-handle-outline" class="ion-text-right" style="zoom:2.0;"></ion-icon>
+                    </div>
+                </ion-col>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding">
+            <a href="index.html"><i class="fa-solid fa-arrow-left fa-lg" style="color:black"></i></a>
+            <p class="ion-text-center">Electronic</p>
+            Available products:
+            <ion-list class="ion-padding-top">
+                <ion-item href="products/harddrive.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">WD 2TB Elements Portable External Hard Drive - USB 3.0</ion-label>
+                    <ion-label class="ion-text-center">$64</ion-label>
+                </ion-item>
+                <ion-item href="products/sandisk.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</ion-label>
+                    <ion-label class="ion-text-center">$109</ion-label>
+                </ion-item>
+                <ion-item href="products/sata.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III</ion-label>
+                    <ion-label class="ion-text-center">$109</ion-label>
+                </ion-item>
+                <ion-item href="products/monitor.html" detail>
+                    <ion-thumbnail class="ion-margin">
+                        <ion-img src="https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label class="ion-text-wrap">Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor</ion-label>
+                    <ion-label class="ion-text-center">$999.99</ion-label>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+
+    </ion-app>
+</body>
+</html>
